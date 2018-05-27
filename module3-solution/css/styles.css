@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+
+}
+.container {
+  width: 100%;
+  border: 2px solid black;
+}
+#headerBrand {
+  margin-left: 50px;
+  float: left;
+}
+#headerMenu {
+  text-align: center;
+}
+#collapsable-nav {
+  margin:0;
+  background-color:white;
+}
+
+#nav-list a {
+  margin: 0;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 1.8em;
+}
+#nav-list a:hover {
+  background-color: grey;
+}
+#nav-list a:active {
+  color: lightgrey;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+
+/* Menu */
+#mainContent {
+  background-color: grey;
+  border: 20px solid white;
+}
+/* #mainContent2 {
+  border: 1px solid black;
+} */
+/* Header */
+h1 {
+  font-family: "Arial", Helvetica, sans-serif;
+}
+h2 {
+  font-family: "Arial", Helvetica, sans-serif;
+  text-align: center;
+  padding: 0 10px;
+
+}
+/* Paragraph */
+p {
+  font-family: "Arial", Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  clear: right;
+}
+
+/* Resizing for Browser */
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33%;
+  }
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    width: 50%;
+  }
+  .col-md-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
